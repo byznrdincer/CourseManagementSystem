@@ -6,7 +6,7 @@
  *
  * @author beyza
  */
-package edu.university.coursemanagement.repository;
+package edu.university.coursemanagement.view;
 
 import edu.university.coursemanagement.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
