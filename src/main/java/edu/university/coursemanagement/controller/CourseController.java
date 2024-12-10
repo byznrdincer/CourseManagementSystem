@@ -11,7 +11,7 @@
 package edu.university.coursemanagement.controller;
 
 import edu.university.coursemanagement.model.Course;
-import edu.university.coursemanagement.view.CourseRepository;
+import edu.university.coursemanagement.Repository.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

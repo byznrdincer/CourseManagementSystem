@@ -6,11 +6,11 @@
  *
  * @author beyza
  */
-package edu.university.coursemanagement.view;
+package edu.university.coursemanagement.Repository;
 
-import edu.university.coursemanagement.model.Advisor;
+import edu.university.coursemanagement.model.Course;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface AdvisorRepository extends JpaRepository<Advisor, Integer> {
-    // Burada, Advisor'a özgü sorgular eklenebilir.
+public interface CourseRepository extends JpaRepository<Course, Integer> {
+    // Burada, Course'a özgü sorgular eklenebilir.
 }

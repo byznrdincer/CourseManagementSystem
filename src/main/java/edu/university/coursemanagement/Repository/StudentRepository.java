@@ -6,11 +6,11 @@
  *
  * @author beyza
  */
-package edu.university.coursemanagement.view;
+package edu.university.coursemanagement.Repository;
 
-import edu.university.coursemanagement.model.User;
+import edu.university.coursemanagement.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<User, Integer> {
-    // Burada, User'a özgü sorgular eklenebilir.
+public interface StudentRepository extends JpaRepository<Student, Integer> {
+    // Burada, Student'a özgü sorgular eklenebilir.
 }
