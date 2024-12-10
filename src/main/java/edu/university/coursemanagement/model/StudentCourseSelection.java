@@ -8,12 +8,15 @@
  */
 package edu.university.coursemanagement.model;
 
+import java.io.Serializable;
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Table(name = "StudentCourseSelections")
-public class StudentCourseSelection {
+public class StudentCourseSelection implements Serializable {
+
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
