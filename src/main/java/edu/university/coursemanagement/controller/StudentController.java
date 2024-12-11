@@ -12,11 +12,11 @@
 package edu.university.coursemanagement.controller;
 
 import edu.university.coursemanagement.model.Student;
-import edu.university.coursemanagement.Repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import edu.university.coursemanagement.repository.StudentRepository;
 
 @RestController
 @RequestMapping("/students")

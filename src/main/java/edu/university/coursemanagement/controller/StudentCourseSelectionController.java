@@ -11,11 +11,11 @@
 package edu.university.coursemanagement.controller;
 
 import edu.university.coursemanagement.model.StudentCourseSelection;
-import edu.university.coursemanagement.Repository.StudentCourseSelectionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import edu.university.coursemanagement.repository.StudentCourseSelectionRepository;
 
 @RestController
 @RequestMapping("/selections")
